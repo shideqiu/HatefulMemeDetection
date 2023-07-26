@@ -4,6 +4,8 @@ Memes are widely spread on social media platforms and consist of texts and graph
 
 We used the BERT (Bidirectional Encoder Representations from Transformers) model as the baseline for our hateful meme detection project. To enhance the model's performance, we conducted a series of experiments involving the extraction of entity, emotion, race, gender, and age tags from the meme image. These visual features were fused with the meme's text to provide a more comprehensive input representation.
 
+<img src="img/fusion.png"/>
+
 ## Infrastructure Setup
 
 For any deep-learning project, having a strong infrastructure is really important. We faced multiple challenges initially using Google Collab as it had very limited GPU support and often timed out. Hence we decided to move away from Google Collab and leveraged the following infrastructure (athough we were still limited by the credits available to us for GCP):

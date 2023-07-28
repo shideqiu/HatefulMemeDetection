@@ -1,4 +1,4 @@
-# Hateful Meme Detection
+# Hateful Meme Detection ([Report](Report.pdf))
 
 Memes are widely spread on social media platforms and consist of texts and graphics to create humor. Unfortunately, sometimes memes uploaded on the Internet need to be censored to curb hate speech. This poses a new challenge for multimodal classification which requires both visual and linguistic understanding of the meme. We find that using textual summarizations of the memes along with the text embedded in the image can help language models determine if the meme should be considered hate speech.
 
